@@ -52,6 +52,7 @@
           <div class="qsi-formgroup">
             <label for="qsi-apptype">Application Type</label>
             <select name="qsi-apptype" id="qsi-apptype" class="form-control">
+              <option value="">N/A (blank)</option>
               <option value="Dashboard">Dashboard</option>
               <option value="Transform">Transform</option>
               <option value="Extract">Extract</option>
@@ -69,7 +70,7 @@
         <h3>Generated Icon</h3>
         <p>Enter icon details to the left and click "Generate Icon". Once complete, the box below will fill with the
           icon, at which point it can be downloaded.</p>
-        <p><canvas id="qsi-canvas" width="168" height="108" style="border:1px solid #666666;">Your browser does not
+        <p><canvas id="qsi-canvas" width="164" height="108" style="border:1px solid #666666;">Your browser does not
             support canvas. Please switch to a different browser.</canvas></p>
         <p><button type="button" id="qsiDownload" class="btn btn-primary" disabled>Download Icon</button></p>
       </div>
@@ -80,7 +81,7 @@
         <h3>Tool configuration</h3>
         <p>To use this tool effectively:</p>
         <ul>
-          <li>Create a background image of ratio 8:5 (optionally of size 168x108) and store this in the mashup directory as "icon_background.png".</li>
+          <li>Create a background image of ratio 8:5 (optionally of size 164x108 to match the size the image is rescaled for the Hub, or alternatively of size 190x116 to match the size the image is rescaled to in-app) and store this in the mashup directory as "icon_background.png".</li>
           <li>Set the default opacity for the background image, by changing the default value in this HTML file. By default this is fully opaque (1).</li>
           <li>Change the default app types, if needed. The defaults are "Dashboard", "Transform", "Extract" and "Trigger" to signify the purpose of the application the icon is being generated for.</li>
         </ul>
