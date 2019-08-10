@@ -1,0 +1,50 @@
+{
+    "templates": {
+        "qlik_green": {
+            "background": {
+                "image": "qlik_green.png",
+                "imageAlpha": 1,
+                "colour": "#009844"
+            },
+            "appName": {
+                "font": "Sans-Serif",
+                "fontSize": 14,
+                "colour": "#fff",
+                "align": "left",
+                "locX": 10,
+                "locY": 27
+            },
+            "appType": {
+                "font": "Sans-Serif",
+                "fontSize": 8,
+                "colour": "#333",
+                "align": "left",
+                "locX": 10,
+                "locY": 96
+            }
+        },
+        "qlik_white": {
+            "background": {
+                "image": "qlik_white.png",
+                "imageAlpha": 1,
+                "colour": "#fff"
+            },
+            "appName": {
+                "font": "Sans-Serif",
+                "fontSize": 14,
+                "colour": "#333",
+                "align": "left",
+                "locX": 10,
+                "locY": 27
+            },
+            "appType": {
+                "font": "Sans-Serif",
+                "fontSize": 8,
+                "colour": "#333",
+                "align": "left",
+                "locX": 10,
+                "locY": 96
+            }
+        }
+    }
+}
