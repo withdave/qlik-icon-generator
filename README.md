@@ -35,7 +35,7 @@ Current backlog:
 
 # Updates
 
-## v2.0 (dev)
+## v2.0
 
 * Moved to using releases
 * Tidied up readme and other files around the extension
