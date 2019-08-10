@@ -17,3 +17,20 @@ Current backlog:
 * Add config for app name (font, colour, size, location)
 * Add wrapping for app names
 * Add integration with QRS API for auto generation, and to allow pushing into a defined content library
+
+# Done
+
+* Initial version (v1.0)
+
+# Updates
+
+I'm using integer versioning - assume everything changes every time :)
+
+## v2.0 (dev)
+
+* Moved to using releases
+* Tidied up readme and other files around the extension
+
+## v1.0
+
+* Initial version

@@ -1,5 +1,4 @@
 // withdave
-// 27/07/2019
 // Simple script to build icons the right size for Qlik Sense
 
 // Primary page functions
