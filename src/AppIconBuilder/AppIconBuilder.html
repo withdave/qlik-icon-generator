@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="withdave">
-  <title>Qlik Sense Icon Generator</title>
+  <title>Qlik Sense App Icon Builder</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,8 +37,13 @@
   <main role="main" class="container">
 
     <div class="qsi-header">
-      <h1>Qlik Sense App Icon Generator</h1>
+      <h1>Qlik Sense App Icon Builder v2.0</h1>
       <p class="lead">This tool is designed to help you produce standardised, repeatable app icons.</p>
+    </div>
+
+    <div id="qsi-error" class="alert alert-danger" role="alert">
+      <!-- Error placeholder -->
+      Error: Please check the console log and ensure javascript is enabled.
     </div>
 
     <div class="row">
@@ -60,8 +65,10 @@
             </select>
           </div>
           <div class="qsi-formgroup">
-            <label for="qsi-bgalpha">Background Alpha (decimal between 0-1)</label>
-            <input type="text" name="qsi-bgalpha" id="qsi-bgalpha" value="1" class="form-control" />
+            <label for="qsi-template">Template</label>
+            <select name="qsi-template" id="qsi-template" class="form-control">
+              <!-- Populated by config.json file -->
+            </select>
           </div>
           <p><button type="submit" class="btn btn-primary">Generate Icon</button></p>
         </form>
@@ -81,9 +88,13 @@
         <h3>Tool configuration</h3>
         <p>To use this tool effectively:</p>
         <ul>
-          <li>Create a background image of ratio 8:5 (optionally of size 164x108 to match the size the image is rescaled for the Hub, or alternatively of size 190x116 to match the size the image is rescaled to in-app) and store this in the mashup directory as "icon_background.png".</li>
-          <li>Set the default opacity for the background image, by changing the default value in this HTML file. By default this is fully opaque (1).</li>
-          <li>Change the default app types, if needed. The defaults are "Dashboard", "Transform", "Extract" and "Trigger" to signify the purpose of the application the icon is being generated for.</li>
+          <li>Create a background image of 164x108px (as per Qlik help this should be ratio 8:5, however this doesn't
+            match to match the size the image is rescaled for the Hub, or alternatively of size 190x116 to match the
+            size the image is rescaled to in-app) and store this in the mashup directory as "icon_background.png".</li>
+          <li>Set the default opacity for the background image, by changing the default value in this HTML file. By
+            default this is fully opaque (1).</li>
+          <li>Change the default app types, if needed. The defaults are "N/A" (blank), "Dashboard", "Transform",
+            "Extract" and "Trigger" to signify the purpose of the application the icon is being generated for.</li>
         </ul>
       </div>
     </div>
