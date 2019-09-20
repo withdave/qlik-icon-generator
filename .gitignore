@@ -1,5 +1,5 @@
 ## GitIgnore built from own experience and using samples from https://github.com/github/gitignore
-## DC - 20190906
+## DC - 20190920
 
 ## Qlik exclusions
 # Ignore all Qlik data files
@@ -66,3 +66,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Finally I want to exclude any packages I might make
+*.zip

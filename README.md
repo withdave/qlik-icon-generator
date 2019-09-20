@@ -1,4 +1,4 @@
-# Qlik Sense App Icon Generator
+# Qlik Sense Icon Generator (qs-icon-generator)
 
 The requirements for a Qlik Sense App Icon are:
 - Suitable format - ideally PNG file, but can be JPG, JPEG or GIF
@@ -6,7 +6,7 @@ The requirements for a Qlik Sense App Icon are:
 
 # Usage
 
-This has been packaged as an extension, so just upload it under extensions in the QMC, then navigate to /extensions/AppIconBuilder/AppIconBuilder.html to create some icons.
+This has been packaged as an extension, so just upload it under extensions in the QMC, then navigate to /extensions/qs-icon-generator/index.html to create some icons.
 
 Example implementation:
 ![Default configuration, with a green logo generated](screenshot.png)
@@ -43,6 +43,7 @@ Current backlog:
 * Updated wbl file to include correct references for editing in the dev-hub
 * Add reference back to GitHub for future versions
 * Tidied unwanted system files and gitignore
+* Renamed plugin to align repository, estension and intended purpose
 
 ## v2.0
 
