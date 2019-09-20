@@ -25,7 +25,6 @@ Current backlog:
 * Add word splitting for app names with words longer than the full width (currently these overflow)
 * Add handling for transparent background images
 * Add integration with QRS API for auto generation, and to allow pushing into a defined content library
-* Update .gitignore to include mac and other formats (and remove from deployment package)
 
 # Done
 
@@ -35,6 +34,7 @@ Current backlog:
 * Add wrapping for app names (v2.0)
 * Update wbl file to include correct references (v2.0.1)
 * Add reference back to GitHub for future versions (v2.0.1)
+* Update .gitignore to include mac and other formats (and remove from deployment package) (v2.0.1)
 
 # Updates
 
@@ -42,6 +42,7 @@ Current backlog:
 
 * Updated wbl file to include correct references for editing in the dev-hub
 * Add reference back to GitHub for future versions
+* Tidied unwanted system files and gitignore
 
 ## v2.0
 
