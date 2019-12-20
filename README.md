@@ -2,7 +2,7 @@
 
 The requirements for a Qlik Sense App Icon are:
 - Suitable format - ideally PNG file, but can be JPG, JPEG or GIF
-- Correct size or aspect - actual size for the hub is 168x108 pixels (although the help site says 8:5 - https://help.qlik.com/en-US/sense/June2019/Subsystems/Hub/Content/Sense_Hub/Apps/change-thumbnail-app.htm, and in-app this is also different)
+- Correct size or aspect - actual size for the hub is 168x108 pixels (although the help site says 8:5 - https://help.qlik.com/en-US/sense/June2019/Subsystems/Hub/Content/Sense_Hub/Apps/change-thumbnail-app.htm, and in-app this is also different - there is now a support article on this topic https://support.qlik.com/articles/000080221).
 
 # Usage
 
