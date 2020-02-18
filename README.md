@@ -24,6 +24,7 @@ As of v2.0, configuration is via a config.json file. Two templates are included 
 Current backlog:
 * Add word splitting for app names with words longer than the full width (currently these overflow)
 * Add handling for transparent background images
+* Add handling for custom background colours
 * Add integration with QRS API for auto generation, and to allow pushing into a defined content library
 
 # Done
