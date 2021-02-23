@@ -26,6 +26,7 @@ Current backlog:
 * Add handling for transparent background images
 * Add handling for custom background colours
 * Add integration with QRS API for auto generation, and to allow pushing into a defined content library
+* Add sizing for QCS - res 331x218, frame contents in centre 286px for hub view
 
 # Done
 
