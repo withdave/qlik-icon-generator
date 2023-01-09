@@ -94,6 +94,10 @@
         var canvas = document.getElementById("qsi-canvas");
         var context = canvas.getContext("2d");
 
+        // Set size of canvas
+        canvas.width = templateList.templates[iconTemplate].background.canvasX;
+        canvas.height = templateList.templates[iconTemplate].background.canvasY;
+
         // Draw a full background on the canvas
         context.beginPath();
         context.rect(0, 0, canvas.width, canvas.height);

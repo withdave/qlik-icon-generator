@@ -69,3 +69,6 @@ Temporary Items
 
 # Finally I want to exclude any packages I might make
 *.zip
+node_modules/
+package.json
+package-lock.json

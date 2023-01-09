@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="withdave">
-  <title>Qlik Sense Icon Generator</title>
+  <title>Qlik Icon Generator</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
   <main role="main" class="container">
 
     <div class="qsi-header">
-      <h1>Qlik Sense Icon Generator v2.0.1</h1>
+      <h1>Qlik Icon Generator v3.0.0</h1>
       <p class="lead">This tool is designed to help you produce standardised, consistent app icons.</p>
     </div>
 
@@ -59,6 +59,7 @@
             <select name="qsi-apptype" id="qsi-apptype" class="form-control">
               <option value="">N/A (blank)</option>
               <option value="Dashboard">Dashboard</option>
+              <option value="Certified">Certified</option>
               <option value="Transform">Transform</option>
               <option value="Extract">Extract</option>
               <option value="Trigger">Trigger</option>
@@ -85,16 +86,7 @@
     <br><br>
     <div class="row">
       <div class="col-sm">
-        <h3>Tool configuration</h3>
-        <p>To use this tool effectively:</p>
-        <ul>
-          <li>Create a background image of 164x108px (as per Qlik help this should be ratio 8:5, however this doesn't
-            match to match the size the image is rescaled for the Hub or in app) and store this in the backgrounds directory with an appropriate name (this will be referenced in the config.json file).</li>
-          <li>Update config.json with the new theme details. Use the dev-hub to edit this without needing to import/export the extension.</li>
-          <li>Change the default app types, if needed. The defaults are "N/A" (blank), "Dashboard", "Transform",
-            "Extract" and "Trigger" to signify the purpose of the application the icon is being generated for.</li>
-          <li>Periodically check <a href="https://github.com/withdave/qlik-sense-icon-generator">GitHub</a> for updates to this extension.</li>
-        </ul>
+        <p>The default config.json contains templates for both Qlik Cloud (qlik_cloud_*) and Qlik Sense client managed (qlik_*). Please see <a href="https://github.com/withdave/qlik-icon-generator">GitHub</a> for instructions on configuring this tool for your branding.</p>
       </div>
     </div>
   </main>
