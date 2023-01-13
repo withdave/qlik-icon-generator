@@ -59,9 +59,7 @@
         // Determine which config has been selected 
         // There's no error checking so if the config is invalid it'll error or look odd
         var iconTemplate = $("#qsi-template").val();
-
-        console.log(templateList.templates[iconTemplate].appName);
-
+        
         // Get app icon config from the form
         var appName = $("#qsi-appname").val();
         var fileName = "AppIcon_" + appName.replace(/[^a-zA-Z0-9]+/g, "");
@@ -72,7 +70,11 @@
         var backgroundAlpha = templateList.templates[iconTemplate].background.imageAlpha;
         var backgroundColour = templateList.templates[iconTemplate].background.colour;
         var backgroundImg = new Image();
-        backgroundImg.src = "backgrounds/" + templateList.templates[iconTemplate].background.image;
+        if (templateList.templates[iconTemplate].background.image.length > 0) {
+            backgroundImg.src = "backgrounds/" + templateList.templates[iconTemplate].background.image;
+        } else {
+            backgroundImg.src = "backgrounds/empty.png";
+        }
 
         // App Name
         var appNameFont = templateList.templates[iconTemplate].appName.font;
@@ -108,17 +110,19 @@
 
         // Prep for background image and load it in
         backgroundImg.onload = function () {
-
+            
             // Work out the aspect ratio of the canvas and draw the background image this size in the centre
             var hRatio = canvas.width / backgroundImg.width;
             var vRatio = canvas.height / backgroundImg.height;
             var ratio = Math.min(hRatio, vRatio);
             var centreShift_x = (canvas.width - backgroundImg.width * ratio) / 2;
             var centreShift_y = (canvas.height - backgroundImg.height * ratio) / 2;
-            context.clearRect(0, 0, canvas.width, canvas.height);
             context.globalAlpha = backgroundAlpha;
-            context.drawImage(backgroundImg, 0, 0, backgroundImg.width, backgroundImg.height,
-                centreShift_x, centreShift_y, backgroundImg.width * ratio, backgroundImg.height * ratio);
+            
+            if (templateList.templates[iconTemplate].background.image.length > 0) {
+                context.drawImage(backgroundImg, 0, 0, backgroundImg.width, backgroundImg.height,
+                    centreShift_x, centreShift_y, backgroundImg.width * ratio, backgroundImg.height * ratio);
+            }
             context.globalAlpha = 1;
 
             // Overlay the text for App Name
