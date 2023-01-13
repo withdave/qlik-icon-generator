@@ -28,8 +28,9 @@ Several templates are included by default:
 * qlik_cloud_white - uses a white background image with grey app name text, sized for the card and list views in the Qlik Cloud hub
 * qlik_green - uses a partially green background image with white app name text
 * qlik_white - uses a fully white background image with dark text
-* qlik_app_green - uses a green background with white text (to scale to 140x90px)
-* qlik_app_white - uses a white background with grey text (to scale to 140x90px)
+* qlik_sheet_green - uses a green background with white text
+* qlik_sheet_grey - uses a grey background with white text
+* qlik_sheet_white - uses a white background with green text
 
 If you wish to change the background of an existing or new template:
 * Suitable format - ideally PNG file, but can be JPG, JPEG or GIF
