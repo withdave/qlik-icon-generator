@@ -29,7 +29,7 @@
             "background": {
                 "image": "qlik_cloud_grey.png",
                 "imageAlpha": 1,
-                "colour": "#009844",
+                "colour": "#585a5f",
                 "canvasX": 288,
                 "canvasY": 180
             },
@@ -123,6 +123,81 @@
                 "align": "left",
                 "locX": 10,
                 "locY": 96
+            }
+        },
+        "qlik_sheet_green": {
+            "background": {
+                "image": "",
+                "imageAlpha": 1,
+                "colour": "#009845",
+                "canvasX": 280,
+                "canvasY": 180
+            },
+            "appName": {
+                "font": "Sans-Serif",
+                "fontSize": 28,
+                "colour": "#fff",
+                "align": "left",
+                "locX": 15,
+                "locY": 45
+            },
+            "appType": {
+                "font": "Sans-Serif",
+                "fontSize": 14,
+                "colour": "#fff",
+                "align": "left",
+                "locX": 15,
+                "locY": 160
+            }
+        },
+        "qlik_sheet_grey": {
+            "background": {
+                "image": "",
+                "imageAlpha": 1,
+                "colour": "#585a5f",
+                "canvasX": 280,
+                "canvasY": 180
+            },
+            "appName": {
+                "font": "Sans-Serif",
+                "fontSize": 28,
+                "colour": "#fff",
+                "align": "left",
+                "locX": 15,
+                "locY": 45
+            },
+            "appType": {
+                "font": "Sans-Serif",
+                "fontSize": 14,
+                "colour": "#fff",
+                "align": "left",
+                "locX": 15,
+                "locY": 160
+            }
+        },
+        "qlik_sheet_white": {
+            "background": {
+                "image": "",
+                "imageAlpha": 1,
+                "colour": "#fff",
+                "canvasX": 280,
+                "canvasY": 180
+            },
+            "appName": {
+                "font": "Sans-Serif",
+                "fontSize": 28,
+                "colour": "#009844",
+                "align": "left",
+                "locX": 15,
+                "locY": 45
+            },
+            "appType": {
+                "font": "Sans-Serif",
+                "fontSize": 14,
+                "colour": "#009844",
+                "align": "left",
+                "locX": 15,
+                "locY": 160
             }
         }
     }
