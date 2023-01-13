@@ -1,12 +1,12 @@
 # Qlik Icon Generator (qs-icon-generator)
 
+> **Note**
+> This "mashup" can only be deployed onto Qlik Sense client-managed. If you wish to use it with Qlik Cloud, you can use a version hosted [here](https://withdave.github.io/qlik-icon-generator/) or host it yourself.
+
 This script helps you to produce standard, consistent icons for use with Qlik Sense Enterprise client-managed and Qlik Cloud. It uses some simple background images and text which help make it visually easier for users to access their frequent apps.
 
-It can help you make icons for apps and sheets like these:
+An example using the provided templates for sheet icons:
 ![Default configuration, with a green logo generated](screenshot_sheets.png)
-
-> **Warning**
-> This "mashup" can only be deployed onto Qlik Sense client-managed. If you wish to use it with Qlik Cloud, you can use a version hosted [here](https://withdave.github.io/qlik-icon-generator/) or host it yourself.
 
 ## Installation
 
