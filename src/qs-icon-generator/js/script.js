@@ -110,7 +110,7 @@
 
         // Prep for background image and load it in
         backgroundImg.onload = function () {
-            console.log("Anyone home");
+            
             // Work out the aspect ratio of the canvas and draw the background image this size in the centre
             var hRatio = canvas.width / backgroundImg.width;
             var vRatio = canvas.height / backgroundImg.height;
