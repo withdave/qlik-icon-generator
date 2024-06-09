@@ -8,28 +8,9 @@
   <meta name="author" content="withdave">
   <title>Qlik Icon Generator</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
 
-  <style>
-    .qsi-header {
-      padding: 3rem 1.5rem;
-      text-align: center;
-    }
-
-    .qsi-formgroup {
-      margin-bottom: 1rem;
-    }
-
-    h3 {
-      margin-bottom: 2rem;
-    }
-
-    .col-sm {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-  </style>
 </head>
 
 <body>
@@ -37,7 +18,7 @@
   <main role="main" class="container">
 
     <div class="qsi-header">
-      <h1>Qlik Icon Generator v3.1.0</h1>
+      <h1>Qlik Icon Generator v3.1.1</h1>
       <p class="lead">This tool is designed to help you produce standardised, consistent icons.</p>
     </div>
 
@@ -78,7 +59,7 @@
         <h3>Generated Icon</h3>
         <p>Enter icon details to the left and click "Generate Icon". Once complete, the box below will fill with the
           icon, at which point it can be downloaded.</p>
-        <p><canvas id="qsi-canvas" width="164" height="108" style="border:1px solid #666666;">Your browser does not
+        <p><canvas id="qsi-canvas" width="164" height="108">Your browser does not
             support canvas. Please switch to a different browser.</canvas></p>
         <p><button type="button" id="qsiDownload" class="btn btn-primary" disabled>Download Icon</button></p>
       </div>
@@ -86,15 +67,17 @@
     <br><br>
     <div class="row">
       <div class="col-sm">
-        <p>The default config.json contains templates for both Qlik Cloud (qlik_cloud_*) and Qlik Sense client managed (qlik_*). Please see <a href="https://github.com/withdave/qlik-icon-generator">GitHub</a> for instructions on configuring this tool for your branding.</p>
+        <p>The default config.json contains templates for both Qlik Cloud (qlik_cloud_*) and Qlik Sense client managed
+          (qlik_*). Please see <a href="https://github.com/withdave/qlik-icon-generator">GitHub</a> for instructions on
+          configuring this tool for your branding.</p>
       </div>
     </div>
   </main>
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/FileSaver.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js" type="javascript"></script>
+  <script src="js/FileSaver.min.js" type="javascript"></script>
+  <script src="js/script.js" type="javascript"></script>
+  <script src="js/bootstrap.bundle.min.js" type="javascript"></script>
 
 </body>
 

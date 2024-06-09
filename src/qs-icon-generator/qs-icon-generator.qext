@@ -2,12 +2,12 @@
     "type": "mashup",
     "name": "Qlik Sense Icon Builder (qs-icon-generator)",
     "description": "This tool is designed to help you produce standardised, consistent app icons.",
-    "version": "2.0.1",
+    "version": "3.1.1",
     "author": "withdave",
-    "homepage": "https://github.com/withdave/qlik-sense-icon-generator",
+    "homepage": "https://github.com/withdave/qlik-icon-generator",
     "keywords": "",
     "license": "",
-    "repository": "https://github.com/withdave/qlik-sense-icon-generator",
+    "repository": "https://github.com/withdave/qlik-icon-generator",
     "dependencies": {
         "qlik-sense": ">=3.0.x"
     }
