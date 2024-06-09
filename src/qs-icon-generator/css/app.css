@@ -1,0 +1,21 @@
+.qsi-header {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .qsi-formgroup {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 2rem;
+  }
+
+  .col-sm {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #qsi-canvas {
+    border:1px solid #666666;
+  }
