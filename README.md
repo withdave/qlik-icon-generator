@@ -23,6 +23,12 @@ The default deployment looks like:
 Configuration is via the `src/qs-icon-generator/config.json` file, and supporting background images in the `src/qs-icon-generator/backgrounds/` directory.
 
 Several templates are included by default:
+* modern_qlik_cloud_grey - uses a square grey background image with white app name text, sized for the card and list views in the Qlik Cloud hub - approx 3x the size of qlik_cloud_* versions but looks much more clear in the hub
+* modern_qlik_cloud_green - uses a square green background image with white app name text, sized for the card and list views in the Qlik Cloud hub - approx 3x the size of qlik_cloud_* versions but looks much more clear in the hub
+* modern_qlik_cloud_white - uses a square white background image with grey app name text, sized for the card and list views in the Qlik Cloud hub - approx 3x the size of qlik_cloud_* versions but looks much more clear in the hub
+* modern_qlik_sheet_green - uses a green background with white text - approx 3x the size of qlik_sheet_* versions but looks much more clear in the app
+* modern_qlik_sheet_grey - uses a grey background with white text - approx 3x the size of qlik_sheet_* versions but looks much more clear in the app
+* modern_qlik_sheet_white - uses a white background with green text - approx 3x the size of qlik_sheet_* versions but looks much more clear in the app
 * qlik_cloud_green - uses a square green background image with white app name text, sized for the card and list views in the Qlik Cloud hub
 * qlik_cloud_grey - uses a square grey background image with white app name text, sized for the card and list views in the Qlik Cloud hub
 * qlik_cloud_white - uses a white background image with grey app name text, sized for the card and list views in the Qlik Cloud hub
@@ -32,7 +38,7 @@ Several templates are included by default:
 * qlik_sheet_grey - uses a grey background with white text
 * qlik_sheet_white - uses a white background with green text
 
-If you wish to change the background of an existing or new template:
+If you wish to change the background of an existing or new template, start from one of the examples, or review the following:
 * Suitable format - ideally PNG file, but can be JPG, JPEG or GIF
 * Correct size for app icons, which differs based on your product version
   * Qlik Sense client-managed: 164x108 pixels, which is acceptable for both the hub and in-app aspect ratios
